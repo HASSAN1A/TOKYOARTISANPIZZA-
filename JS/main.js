@@ -13,34 +13,34 @@ $(document).ready(function () {
     Pizza.prototype.getToppingPrice = function () {
         if (this.size === "large") {
             if (this.topping === "pepperoni") {
-                return 150;
+                return 155;
             } else if (this.topping === "mushroom") {
-                return 120;
+                return 135;
             } else {
-                return 180;
+                return 190;
             }
         } else if (this.size === "medium") {
             if (this.topping === "pepperoni") {
                 return 100;
             } else if (this.topping === "mushroom") {
-                return 80;
+                return 90;
             } else {
-                return 140;
+                return 150;
             }
         } else {
             if (this.topping === "pepperoni") {
                 return 80;
             } else if (this.topping === "mushroom") {
-                return 50;
+                return 60;
             } else {
-                return 100;
+                return 130;
             }
         }
     };
 
     Pizza.prototype.getCrustPrice = function () {
         if (this.crust === "thick") {
-            return 100;
+            return 130;
         } else {
             return 0;
         }
@@ -51,25 +51,25 @@ $(document).ready(function () {
             if (this.type === "steak diablo") {
                 return 1200;
             } else if (this.type === "memphis") {
-                return 1300;
-            } else {
                 return 1100;
+            } else {
+                return 1000;
             }
         } else if (this.size === "medium") {
             if (this.type === "steak diablo") {
-                return 850;
+                return 1050;
             } else if (this.type === "memphis") {
                 return 950;
             } else {
-                return 750;
+                return 850;
             }
         } else {
             if (this.type === "steak diablo") {
-                return 600;
+                return 800;
             } else if (this.type === "memphis") {
-                return 650;
+                return 600;
             } else {
-                return 550;
+                return 500;
             }
         }
     };
@@ -170,7 +170,7 @@ $(document).ready(function () {
             $("#total-amount").empty();
             $("#total-amount").append(totalCost);
         } else {
-            alert(customerName + ": Your total bill is Ksh. " + totalCost + ". Your order will be ready for collection in the next 2 hours");
+            alert(customerName + ": Your total bill is Ksh. " + totalCost + ". Your order will be ready for collection in the next 15 minutes.");
         }
     });
 
