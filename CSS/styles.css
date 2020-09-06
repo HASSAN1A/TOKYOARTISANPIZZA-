@@ -81,7 +81,6 @@ nav a {
 
 }
 
-
 .btn {
     color: white;
     font-size: larger;
@@ -93,9 +92,8 @@ nav {
 }
 
 nav a {
-    background-color: gray;
     text-align: center;
-    color: white;
+    color: rgb(87, 33, 33);
     padding-left: px;
 }
 
