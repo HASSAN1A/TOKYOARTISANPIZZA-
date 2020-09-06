@@ -187,10 +187,6 @@ form input[type=submit] {
     padding: 0 15%;
 }
 
-.hide {
-    display: none;
-}
-
 .show {
     display: block;
 }
