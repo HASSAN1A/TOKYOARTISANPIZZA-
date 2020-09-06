@@ -39,10 +39,12 @@ $(document).ready(function () {
     };
 
     Pizza.prototype.getCrustPrice = function () {
-        if (this.crust === "thick") {
-            return 130;
+        if (this.crust === "crispy") {
+            return 180;
+        } else if (this.crust === "stuffed") {
+            return 150;
         } else {
-            return 0;
+            return 100;
         }
     };
 
