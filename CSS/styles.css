@@ -1,6 +1,48 @@
+.total-amount {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.delivery-cost {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.checkout-options {
+    z-index: 3;
+    border-radius: 18px;
+    padding: 20px;
+    width: 70%;
+    height: 40vh;
+    background: palevioletred;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.location {
+    z-index: 3;
+    border-radius: 18px;
+    padding: 20px;
+    width: 70%;
+    height: 38vh;
+    background: greenyellow;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
 .logo {
     text-align: center;
-    color: #000;
+
 }
 
 .jumbotrona {
@@ -11,8 +53,16 @@
     height: 600px;
     text-align: center;
     background-size: 100%;
-    color: white;
+    color: red;
+    font-size: 24px;
+}
 
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .menu {
@@ -26,22 +76,21 @@
     padding-right: 60px;
     border-bottom: 30px;
     font: bolder;
-    font-size: 30PX;
+    font-size: 24px;
 
 
 }
 
-#outcome {
-    display: none;
-}
 
 .btn {
     color: white;
     font-size: larger;
 }
 
-.nav {
-    background-color: white;
+nav {
+    background-color: gray;
+    text-align: center;
+    color: white;
 }
 
 .jumbotron {
