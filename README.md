@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-  A very interactive studio web app that applies the top of the class technologies created top notch class of a very active engineer.
+  A very nice pizza web app bundled with everything that a wesite needs and in put field that can take orders and customers feedback.
 
 ## Demo
 
@@ -13,16 +13,15 @@ Here is a working live demo :https://hassan1a.github.io/DELANI-STUDIO/
 
 ### Landing Page
 
-This web app starts with a brief introduction on the about us section and services then when you click on the three what we do icons ,message will toggle upon each click to demonstrate further on what the studio does.It also created a portfolio area on previous projects,this is achieved by hovering the cursor over each picture to show case each project.
-Then finally it will extract users comments by filling the form to get important feedback from studio users.To achieve this applies the mail chimp API to track all the emails and messages from your users to help in tracking progress and analyzing.
+This web app interacts with the user fully by getting the order of which the user wants,displays the total of the items keyed in through a table.Then it prompts the user to input whether the order is supposed to be delivered or collected through a form and if it is delivered it prompts for location of delivery then finally it summarizes the whole order cost through an alert.
 
-![](https://github.com/HASSAN1A/DELANI-STUDIO)
+![](https://github.com/HASSAN1A/TOKYOARTISANPIZZA-)
 
 ## Mobile support
 
 The Web is compatible with devices of all sizes and all OS's, and consistent improvements are being made to make sure no device or OS's is left out.
 
-![](https://github.com/HASSAN1A/DELANI-STUDIO)
+![](https://github.com/HASSAN1A/TOKYOARTISANPIZZA-)
 
 ## [Usage](https://hassan1a.github.io/DELANI-STUDIO/)
 
@@ -42,8 +41,8 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ### Bug / Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/HASSAN1A/DELANI-STUDIO/issues/new) by including your search query and the expected result.
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/HASSAN1A//issues/DELANI-STUDIO). Please include sample queries and their corresponding results.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/HASSAN1A/TOKYOARTISANPIZZA-/issues/new) by including your search query and the expected result.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/HASSAN1A//issues/TOKYOARTISANPIZZA). Please include sample queries and their corresponding results.
 
 ## Built with
 
@@ -65,6 +64,6 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 [Hassan Juma ](https://github.com/HASSAN1A)
 
-## [License](https://github.com/HASSAN1A/DELANI-STUDIO/blob/master/LICENSE.md)
+## [License](https://github.com/HASSAN1A/TOKYOARTISANPIZZA-/blob/master/LICENSE.md)
 
-[MIT](https://github.com/HASSAN1A/DELANI-STUDIO/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
+[MIT](https://https://github.com/HASSAN1A/TOKYOARTISANPIZZA-/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
