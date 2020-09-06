@@ -88,9 +88,15 @@ nav a {
 }
 
 nav {
+    text-align: center;
+    color: white;
+}
+
+nav a {
     background-color: gray;
     text-align: center;
     color: white;
+    padding-left: px;
 }
 
 .jumbotron {
