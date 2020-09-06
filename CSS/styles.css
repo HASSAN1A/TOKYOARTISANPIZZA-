@@ -72,7 +72,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     color: rgb(87, 33, 33);
-    padding-left: px;
+    padding: 1px;
 }
 
 .jumbotron {
@@ -116,7 +116,7 @@ textarea {
     width: 100%;
     text-orientation: initial;
     background-position: center;
-    height: 600px;
+    height: 550px;
     text-align: center;
     background: url("/IMAGES/w.webp") no-repeat;
     background-size: cover;
