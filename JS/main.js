@@ -185,7 +185,7 @@ $(document).ready(function () {
         console.log(estate);
         console.log(houseNumber);
         $(".location").hide();
-        alert(customerName + ": Your total bill is : Ksh. " + totalCost + ". Your order will be delivered to " + estate + " Estate, House Number : " + houseNumber + " in 30 minutes time.Thanks for doing business with us.");
+        alert(customerName + ": Your total bill is   Ksh. " + totalCost + ". Your order will be delivered to " + estate + " Estate, House Number   " + houseNumber + " in 30 minutes time.Thanks for doing business with us.");
     });
 });
 $(document).ready(function () {
